@@ -300,7 +300,6 @@ footer {
 }
 
 #back-to-top{
->>>>>>> 1ea5c471fb269d45d26c7a48d38da264aab6204d
   position: fixed;         
   bottom: 20px;            
   right: 20px;             
@@ -321,12 +320,15 @@ footer {
   background: #555;        
   transform: scale(1.1);   
 }
-/* classe que mostra o botão (ativa com js) */
-#btn-topo.visible {
+#back-to-top {
+  opacity: 0;
+  pointer-events: none; /* não clica quando oculto */
+  transition: opacity 0.3s ease, transform 0.3s ease, background 0.3s ease;
+}
+
+#back-to-top.show {      /* classe que o JS vai adicionar */
   opacity: 1;
+  pointer-events: auto;
 }
-/* classe que esconde o botão (ativa com js)*/
-#back-to-top.hidden {
-  display: none;
-}
+
 
