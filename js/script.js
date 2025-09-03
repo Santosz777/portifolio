@@ -32,7 +32,6 @@ if (form && msgStatus) {
       msgStatus.style.color = "red";
       return;
     }
-
     // validação simples de email
     const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!regexEmail.test(email)) {
@@ -40,7 +39,6 @@ if (form && msgStatus) {
       msgStatus.style.color = "red";
       return;
     }
-
     msgStatus.textContent = "✅ Mensagem enviada com sucesso!";
     msgStatus.style.color = "green";
     form.reset();
