@@ -299,9 +299,6 @@ footer {
   margin-top: 40px;       
 }
 
-<<<<<<< HEAD
-#btn-topo {
-=======
 #back-to-top{
 >>>>>>> 1ea5c471fb269d45d26c7a48d38da264aab6204d
   position: fixed;         
@@ -316,31 +313,20 @@ footer {
   cursor: pointer;         
   box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
   transition: background 0.3s ease, transform 0.3s ease;
-<<<<<<< HEAD
   opacity: 0;
   z-index: 1000;
 }
-
-/* efeito do botão */
-#btn-topo:hover {
-=======
-}
-
 /* efeito do botão */
 #back-to-top:hover {
->>>>>>> 1ea5c471fb269d45d26c7a48d38da264aab6204d
   background: #555;        
   transform: scale(1.1);   
 }
-
-<<<<<<< HEAD
 /* classe que mostra o botão (ativa com js) */
 #btn-topo.visible {
   opacity: 1;
 }
-=======
 /* classe que esconde o botão (ativa com js)*/
 #back-to-top.hidden {
   display: none;
 }
->>>>>>> 1ea5c471fb269d45d26c7a48d38da264aab6204d
+
